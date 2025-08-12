@@ -1,0 +1,64 @@
+# IP Address
+
+## 1. Introduction
+An **IP address** (Internet Protocol address) is a unique numerical label assigned to each device connected to a network.  
+It is used to identify and communicate with devices over the Internet or local networks.
+
+---
+
+## 2. Types of IP Addresses
+
+### 2.1 IPv4
+- **32-bit** format
+- Written as **four decimal numbers** separated by dots.
+- Example: `192.168.1.1`
+- Range: `0.0.0.0` to `255.255.255.255`
+
+### 2.2 IPv6
+- **128-bit** format
+- Written in **hexadecimal**, separated by colons.
+- Example: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
+- Supports more devices due to a much larger address space.
+
+---
+
+## 3. Categories Based on Use
+
+| Type        | Description | Example |
+|-------------|-------------|---------|
+| **Private IP** | Used within local networks; not accessible directly from the Internet. | 192.168.x.x, 10.x.x.x, 172.16.x.x to 172.31.x.x |
+| **Public IP**  | Assigned by ISP for communication over the Internet. | 8.8.8.8 (Google DNS) |
+
+---
+
+## 4. Static vs Dynamic
+
+| Type          | Description | Example Use |
+|---------------|-------------|-------------|
+| **Static IP** | Does not change; manually assigned. | Hosting servers |
+| **Dynamic IP**| Changes periodically; assigned automatically by DHCP. | Home internet |
+
+---
+
+## 5. IP Address Ranges
+
+### 5.1 Private IPv4 Ranges
+- **Class A:** `10.0.0.0` – `10.255.255.255`
+- **Class B:** `172.16.0.0` – `172.31.255.255`
+- **Class C:** `192.168.0.0` – `192.168.255.255`
+
+### 5.2 Special IPv4 Addresses
+- **Loopback:** `127.0.0.1` – Used for testing local device.
+- **APIPA:** `169.254.x.x` – Assigned automatically when DHCP fails.
+
+---
+
+## 6. Linux Commands to View IP Address
+
+```bash
+ip addr show          # Shows IP details
+ifconfig              # (Old method - net-tools package needed)
+hostname -I           # Shows assigned IPs
+```
+
+---
