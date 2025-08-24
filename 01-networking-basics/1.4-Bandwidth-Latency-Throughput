@@ -1,0 +1,55 @@
+# Bandwidth vs Latency vs Throughput
+
+## Topics Covered
+1. Bandwidth  
+2. Latency  
+3. Throughput  
+4. Free Fire Examples  
+5. Summary Table
+
+---
+
+## 1. Bandwidth
+**Definition:**  
+Bandwidth is the **maximum amount of data** that can be transmitted over a network in a given time. It represents the **network capacity**, not the actual speed you always get.
+
+**Free Fire Example:**  
+Your ISP, Arc Fiber, provides **100 Mbps** speed. This 100 Mbps is your **bandwidth** — the maximum network speed you can use while playing Free Fire or performing other online activities.
+
+---
+
+## 2. Latency
+**Definition:**  
+Latency is the **time delay** for data to travel from your device to the server and back. It is measured in **milliseconds (ms)**. Higher latency means slower response and delay in communication.
+
+**Free Fire Example:**  
+When playing Free Fire, if the game shows **MS 999+**, it indicates **high latency**. This means your actions take longer to reach the game server, causing delays, lag, or stuttering.
+
+---
+
+## 3. Throughput
+**Definition:**  
+Throughput is the **actual amount of data successfully transmitted** over the network in a given time. It is often less than the maximum bandwidth due to network conditions.
+
+**Free Fire Example:**  
+Even if your ISP provides **100 Mbps**, you may only receive **85–95 Mbps** while playing Free Fire. This real, usable speed is your **throughput**, which affects game performance and download/upload speed.
+
+---
+
+## 4. Summary Table
+
+| Metric      | Definition                                       | Free Fire Example |
+|------------|-------------------------------------------------|-----------------|
+| Bandwidth  | Maximum network capacity                         | ISP provides 100 Mbps |
+| Latency    | Time delay for data to travel (ms)              | Game shows MS 999+ |
+| Throughput | Actual data successfully transmitted per second | Actual speed received 85–95 Mbps |
+
+---
+
+**Key Points:**  
+- Bandwidth = potential maximum network speed  
+- Latency = delay for data travel  
+- Throughput = real speed you get  
+
+---
+
