@@ -1,4 +1,4 @@
-#  ICMP Protocol (Internet Control Message Protocol)
+# ICMP Protocol (Internet Control Message Protocol)
 
 ## 1. What is ICMP?
 - ICMP = **Internet Control Message Protocol**.
