@@ -6,6 +6,10 @@
 - 4-router scenario explanation
 - Router table (before & after static routing)
 - Static route configuration commands
+- Advantages
+- Disadvantages (Limitations)
+- When Static Routing is Good
+- When Static Routing is Bad
 
 ---
 
@@ -82,5 +86,41 @@ ip route 192.168.5.0 255.255.255.0 192.168.4.2   # To reach Net5 via R4
 # On R4
 ip route 192.168.1.0 255.255.255.0 192.168.4.1   # To reach Net1 via R3
 ```
+
+##  Advantages
+1. **Simple to configure** – easy setup for small networks.  
+2. **No resource overhead** – doesn’t consume CPU/RAM for routing calculations.  
+3. **Secure** – no routing updates exchanged between routers.  
+4. **Predictable paths** – routes are fixed and stable.  
+5. **Full control** – network engineer decides the path.  
+
+---
+
+##  Disadvantages (Limitations)
+1. **Not scalable** – difficult to manage in large networks.  
+2. **Manual changes required** – admin must update routes if topology changes.  
+3. **Error-prone** – human mistakes can break communication.  
+4. **No automatic failover** – if a link fails, traffic is lost until manually fixed.  
+5. **Time-consuming** – configuration becomes complex as the network grows.  
+
+---
+
+##  When Static Routing is Good
+- Small networks (labs, branch offices, or point-to-point links).  
+- Default route in home/office networks.  
+- Secure environments (where dynamic routing is not allowed).  
+
+---
+
+##  When Static Routing is Bad
+- Large enterprise or ISP networks.  
+- Environments that need fast **convergence** (automatic rerouting).  
+- Networks with **frequent topology changes**.  
+
+---
+
+##  Summary
+- Static routing = **manual, simple, predictable**.  
+- Dynamic routing = **automatic, scalable, adaptive**.
 
 ---
