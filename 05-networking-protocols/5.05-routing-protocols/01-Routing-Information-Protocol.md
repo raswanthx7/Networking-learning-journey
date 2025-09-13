@@ -13,8 +13,8 @@
 
 ##  What is RIP?
 - RIP (Routing Information Protocol) is one of the **oldest dynamic routing protocols**.  
-- Current version: **RIP v2** (v1 is obsolete).  
-- **Metric used:** Hop count (OpCount).  
+- It belongs to the Distance Vector category..  
+- **Metric used:** Hop count.  
 - Maximum hop count = **15** → any destination beyond 15 hops is considered **unreachable**.  
 - RIP automatically updates routing tables without manual configuration.  
 - RIP only chooses paths based on **shortest hop count**, ignoring bandwidth, delay, or reliability.  
