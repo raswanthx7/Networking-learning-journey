@@ -6,7 +6,7 @@ This repository contains Markdown documentation focused on networking fundamenta
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ### 01 – Networking Basics
 - [1.1 Networking Basics](01-networking-basics/1.1-networking-basics.md)  
@@ -38,18 +38,18 @@ This repository contains Markdown documentation focused on networking fundamenta
 
 ### 05 – Networking Protocols
 
-#### 🔹 Prep Materials
+####  Prep Materials
 - [Networking Ports](05-networking-protocols/5.01-Prep-materials/01-networking-ports.md)  
 - [Accessing a Website](05-networking-protocols/5.01-Prep-materials/02-accessing-website.md)  
 
-#### 🔹 Communication Protocols
+####  Communication Protocols
 - [Internet Protocol (IP)](05-networking-protocols/5.02-communication-protocols/01-internet-protocol.md)  
 - [Transmission Control Protocol (TCP)](05-networking-protocols/5.02-communication-protocols/02-Transmission-Control-Protocol.md)  
 - [User Datagram Protocol (UDP)](05-networking-protocols/5.02-communication-protocols/03-User-Datagram-Protocol.md)  
 - [Address Resolution Protocol (ARP)](05-networking-protocols/5.02-communication-protocols/04-Address-resolution-protocol.md)  
 - [Internet Control Message Protocol (ICMP)](05-networking-protocols/5.02-communication-protocols/05-Internet-Control-Message-Protocol.md)  
 
-#### 🔹 Application Protocols
+####  Application Protocols
 - [DNS](05-networking-protocols/5.03-Application-protocols/01-Domain-name-system.md)  
 - [DHCP](05-networking-protocols/5.03-Application-protocols/02-Dynamic-host-configuration-protocol.md)  
 - [HTTP](05-networking-protocols/5.03-Application-protocols/03-Hypertext-Transfer-Protocol.md)  
@@ -59,14 +59,14 @@ This repository contains Markdown documentation focused on networking fundamenta
 - [Remote Desktop Protocol (RDP)](05-networking-protocols/5.03-Application-protocols/07-Remote-Desktop-Protocol.md)  
 - [DNS Deep Dive](05-networking-protocols/5.03-Application-protocols/08-Domain-Name-System-deepdive.md)  
 
-#### 🔹 Security Protocols
+####  Security Protocols
 - [TLS](05-networking-protocols/5.04-security-protocols/01-Transport-Layer-Security.md)  
 - [SSH](05-networking-protocols/5.04-security-protocols/02-Secure-Shell.md)  
 - [VPN & IPSec](05-networking-protocols/5.04-security-protocols/03-VPN-IPSec.md)  
 - [IPSec vs TLS](05-networking-protocols/5.04-security-protocols/04-IPSec-vs-TLS.md)  
 - [Telnet](05-networking-protocols/5.04-security-protocols/04-Telnet.md)  
 
-#### 🔹 Routing Protocols
+####  Routing Protocols
 - **Interior Gateway Protocols**
   - [RIP](05-networking-protocols/5.05-routing-protocols/01-Interior-Gateway-Protocols/01-Routing-Information-Protocol.md)  
   - [OSPF](05-networking-protocols/5.05-routing-protocols/01-Interior-Gateway-Protocols/02-Open-Shortest-Path-First.md)  
